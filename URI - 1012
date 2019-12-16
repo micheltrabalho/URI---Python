@@ -1,0 +1,20 @@
+URI - 1012
+
+s = str(raw_input()).split(' ')
+
+a = float(s[0])
+b = float(s[1])
+c = float(s[2])
+
+z = (a * c) / 2
+y = 3.14159 * (c * c)
+r = ((a + b) * c) / 2
+w = b * b
+q = a * b
+
+
+print 'TRIANGULO: {:.3f}'.format(z)
+print 'CIRCULO: {:.3f}'.format(y)
+print 'TRAPEZIO: {:.3f}'.format(r)
+print 'QUADRADO: {:.3f}'.format(w)
+print 'RETANGULO: {:.3f}'.format(q)
