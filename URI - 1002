@@ -1,0 +1,7 @@
+URI - 1002
+
+s = float(input())
+
+area  = 3.14159 * (s * s)
+
+print 'A={:.4f}'.format(area)
