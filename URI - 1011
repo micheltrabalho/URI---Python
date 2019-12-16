@@ -1,0 +1,8 @@
+URI - 1011
+
+s = float(input())
+
+area = (4.0/3.0) * 3.14159
+a = area * (s * s * s)
+
+print 'VOLUME = {:.3f}'.format(a)
