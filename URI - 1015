@@ -1,0 +1,18 @@
+URI - 1015
+
+import math
+
+s = str(raw_input()).split(' ')
+r = str(raw_input()).split(' ')
+
+a = float(s[0])
+b = float(s[1])
+c = float(r[0])
+d = float(r[1])
+
+di = (a - c) * (a - c)
+er = (b - d) * (b - d)
+tr = di + er
+rr = math.sqrt(tr)
+
+print '{:.4f}'.format(rr)
