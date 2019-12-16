@@ -1,0 +1,13 @@
+URI - 1013
+
+s = str(raw_input()).split(' ')
+
+a = int(s[0])
+b = int(s[1])
+c = int(s[2])
+
+r = (a + b + abs(a - b))/2
+q = (r + c + abs(r - c))/2
+
+
+print '{:.0f} eh o maior'.format(q)
