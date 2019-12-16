@@ -1,0 +1,9 @@
+URI - 1009
+
+nome = str(raw_input()) #foi utilizado o raw_input() para ler string, pois o input normal dava erro.
+salario = float(input())
+nvendas = float(input())
+
+r = (nvendas * 0.15) + salario
+
+print 'TOTAL = R$ {:2.2f}'.format(r)
