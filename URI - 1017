@@ -1,0 +1,6 @@
+URI - 1017
+
+a = int(input())
+b = int(input())
+x = float(a * b)/12
+print '{:.3f}'.format(x)
