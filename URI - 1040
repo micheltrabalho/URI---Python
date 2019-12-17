@@ -1,0 +1,33 @@
+URI - 1040
+
+x = str(raw_input()).split(' ')
+
+a = float(x[0])
+b = float(x[1])
+c = float(x[2])
+d = float(x[3])
+
+calculo = ((a * 2) + (b * 3) + (c * 4) + (d * 1)) / 10
+
+if calculo >= 7.0:
+    print 'Media: {:.1f}'.format(calculo)
+    print 'Aluno aprovado.'
+
+elif calculo < 5.0:
+    print 'Media: {:.1f}'.format(calculo)
+    print 'Aluno reprovado.'
+
+elif calculo >= 5.0 and calculo <= 7.0:
+    print 'Media: {:.1f}'.format(calculo)
+    print 'Aluno em exame.'
+    q = float(input())
+    print 'Nota do exame: {:.1f}'.format(q)
+    z = (calculo + q) / 2
+
+    if z >= 5.0:
+        print 'Aluno aprovado.'
+        print 'Media final: {:.1f}'.format(z)
+
+    elif z <= 4.9:
+        print 'Aluno revado.'
+        print 'Media final: {:.1f}'.format(z)
