@@ -1,0 +1,73 @@
+URI 1042
+
+a = str(raw_input()).split(' ')
+
+b = int(a[0])
+c = int(a[1])
+d = int(a[2])
+
+if b < c and b < d:
+    if c < d:
+        print b
+        print c
+        print d
+
+        print
+
+        print b
+        print c
+        print d
+    else:
+        print b
+        print d
+        print c
+
+        print
+
+        print b
+        print c
+        print d
+
+elif c < b and c < d:
+    if b < d:
+        print c
+        print b
+        print d
+
+        print
+
+        print b
+        print c
+        print d
+    else:
+        print c
+        print d
+        print b
+
+        print
+
+        print b
+        print c
+        print d
+
+elif d < b and d < c:
+    if b < c:
+        print d
+        print b
+        print c
+
+        print
+
+        print b
+        print c
+        print d
+    else:
+        print d
+        print c
+        print b
+
+        print
+
+        print b
+        print c
+        print d
