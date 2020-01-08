@@ -1,0 +1,10 @@
+URI - 1963
+
+a = str(raw_input()).split(' ')
+
+b = float(a[0])
+c = float(a[1])
+
+d = (((c - b) * 100) / b) * 1
+
+print '{:.2f}%'.format(d)
