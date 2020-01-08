@@ -1,0 +1,27 @@
+URI - 1078
+
+a = int(input())
+b = 1 * a
+b1 = 2 * a
+b2 = 3 * a
+b3 = 4 * a
+b4 = 5 * a
+b5 = 6 * a
+b6 = 7 * a
+b7 = 8 * a
+b8 = 9 * a
+b9 = 10 * a
+
+if a >= 2 and a <= 1000:
+    print '1 x {} = {}'.format(a,b)
+    print '2 x {} = {}'.format(a, b1)
+    print '3 x {} = {}'.format(a, b2)
+    print '4 x {} = {}'.format(a, b3)
+    print '5 x {} = {}'.format(a, b4)
+    print '6 x {} = {}'.format(a, b5)
+    print '7 x {} = {}'.format(a, b6)
+    print '8 x {} = {}'.format(a, b7)
+    print '9 x {} = {}'.format(a, b8)
+    print '10 x {} = {}'.format(a, b9)
+
+
