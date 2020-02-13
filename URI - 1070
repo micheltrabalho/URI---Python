@@ -1,0 +1,31 @@
+a = int(input())
+
+if a % 2 == 0:
+    b = a + 1
+    c = b + 2
+    d = c + 2
+    e = d + 2
+    f = e + 2
+    g = f + 2
+
+    print "{}".format(b)
+    print "{}".format(c)
+    print "{}".format(d)
+    print "{}".format(e)
+    print "{}".format(f)
+    print "{}".format(g)
+
+else:
+    b = a + 2
+    c = b + 2
+    d = c + 2
+    e = d + 2
+    f = e + 2
+    g = f + 2
+
+    print "{}".format(b)
+    print "{}".format(c)
+    print "{}".format(d)
+    print "{}".format(e)
+    print "{}".format(f)
+    print "{}".format(g)
