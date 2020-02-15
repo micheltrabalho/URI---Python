@@ -1,0 +1,24 @@
+a = int(input())
+
+if a < 10000:
+    for x in range(0,a):
+        b = int(input())
+
+        if b == 0:
+            print "NULL"
+
+        elif b > -10000000 and b < 0:
+            if b % 2 == 0:
+                print "EVEN NEGATIVE"
+
+            else:
+                print "ODD NEGATIVE"
+
+        elif b < 10000000 and b > 0:
+            if b % 2 == 0:
+                print "EVEN POSITIVE"
+
+            else:
+                print "ODD POSITIVE"
+
+
