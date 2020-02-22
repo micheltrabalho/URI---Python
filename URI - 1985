@@ -1,0 +1,36 @@
+a = int(input())
+
+w = 0
+x = 0
+y = 0
+l = 0
+p = 0
+o = 0
+
+if a >= 1 and a <= 5:
+
+    for i in range(0,a):
+
+        s = str(raw_input()).split(" ")
+        v = float(s[0])
+        z = float(s[1])
+
+        if z >= 1 and z <= 500:
+
+            if v == 1001:
+                x = z * 1.50
+
+            elif v == 1002:
+                y = z * 2.50
+
+            elif v == 1003:
+                p = z * 3.50
+
+            elif v == 1004:
+                o = z * 4.50
+
+            elif v == 1005:
+                l = z * 5.50
+
+        w = x + y + l + o + p
+print "{:.2f}".format(w)
