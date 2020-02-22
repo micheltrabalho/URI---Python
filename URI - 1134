@@ -1,0 +1,24 @@
+x = 1
+alcool = 0
+gasolina = 0
+diesel = 0
+
+while x == 1:
+
+    b = int(input())
+
+    if b == 1:
+        alcool = alcool + 1
+
+    elif b == 2:
+        gasolina = gasolina + 1
+
+    elif b == 3:
+        diesel = diesel + 1
+
+    elif b == 4:
+        print "MUITO OBRIGADO"
+        print "Alcool: {}".format(alcool)
+        print "Gasolina: {}".format(gasolina)
+        print "Diesel: {}".format(diesel)
+        break
